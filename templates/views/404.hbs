@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>headlinks}}
+     </head> 
+    <body>
+
+    {{>navbar}}
+
+    <!-- main header -->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+
+                   
+                    <!-- left div -->
+                    <div class="col-md-6 col-12 main_header_left">
+                        <h1 style="font-size:xx-large"  >Ooops...</h1>
+                      
+                       <h1> <span class="text_clr">{{err}}</span></h1>
+                        <a href="/"><button>Go Back</button></a>
+                        
+                    </div>
+                    <!-- right side div -->
+                     <div class="col-md-6 col-12 main_header_right">
+                        <figure>
+                            <img src="/images/404.webp" class="img-fluid" title="weather">
+                        </figure>
+
+                    </div>
+                   
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- footer  -->
+    {{>footer}}
+    </body>
+    {{>scriptlinks}}
+
+</html>
