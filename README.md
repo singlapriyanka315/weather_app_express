@@ -1,5 +1,5 @@
 # Weather Application using Express.
-===============================
+##About
 Weather-Today is a Web-based Weather application through which you will be able to get the Temperature and Weather Conditions of any location.To get weather info you just need to type the location name in the search bar.
 
 ## About the Project
